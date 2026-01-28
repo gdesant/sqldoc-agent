@@ -49,7 +49,7 @@
 
         <!-- Success state -->
         <div v-else>
-          <!-- ✅ ID ajouté - Description de la procédure -->
+          <!--  ID ajouté - Description de la procédure -->
           <div id="procedure-description" class="bg-white rounded-lg shadow-sm overflow-hidden mb-6">
             <div class="px-6 py-4 border-b border-gray-100 bg-gray-50">
               <div class="flex justify-between items-center">
