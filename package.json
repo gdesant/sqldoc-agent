@@ -87,6 +87,15 @@
         }
       ]
     },
+    "mac": {
+      "extraResources": [
+        {
+          "from": "build/php-mac",
+          "to": "php",
+          "filter": ["**/*"]
+        }
+      ]
+    },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,

@@ -181,20 +181,20 @@ function initializeLaravel(laravelPath) {
   
   // .env SANS les chemins (ils seront passés en variables d'environnement)
   const envContent = `APP_NAME=SQLINFO
-APP_ENV=production
-APP_KEY=${appKey}
-APP_DEBUG=false
-APP_URL=http://127.0.0.1:8000
-APP_MODE=agent
+    APP_ENV=production
+    APP_KEY=${appKey}
+    APP_DEBUG=false
+    APP_URL=http://127.0.0.1:8000
+    APP_MODE=agent
 
-LOG_CHANNEL=single
-LOG_LEVEL=error
+    LOG_CHANNEL=single
+    LOG_LEVEL=error
 
-SESSION_DRIVER=file
-SESSION_LIFETIME=120
-CACHE_DRIVER=file
-QUEUE_CONNECTION=sync
-`;
+    SESSION_DRIVER=file
+    SESSION_LIFETIME=120
+    CACHE_DRIVER=file
+    QUEUE_CONNECTION=sync
+  `;
   
   // Écrire dans AppData
   fs.writeFileSync(envPathAppData, envContent);
